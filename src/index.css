@@ -1,4 +1,6 @@
 /* write your css here */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +9,7 @@
 
 body {
     min-height: 100vh;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .container{
@@ -19,8 +21,9 @@ body {
 
 .title{
     font-size: 3rem;
+    color: #3c3f42;
     margin: 6vh;
-    border: 7px dashed rgb(1,17,160);
+    border: 7px dashed rgb(43, 54, 158);
     border-radius: 20px;
     padding: 1vh 5vw;
 }
@@ -50,4 +53,61 @@ body {
     width: 380px;
     aspect-ratio: 1/1;
     object-fit: cover;
+}
+
+.tour-info {
+    margin: 20px 5px;
+}
+
+.tour-price {
+    font-size:1.3rem ;
+    color: #1faa59;
+}
+
+.tour-name {
+    font-size: 1.5rem;
+}
+
+.readmore {
+    color: #12b0e8;
+    cursor: pointer;
+}
+
+.btn-red {
+    margin-top: 18px;
+    padding: 10px 88px;
+    border: 1px solid rgb(214, 31, 31);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #7c7e80;
+    border-radius: 3px;
+}
+
+.btn-red:hover {
+    background-color: red;
+    color: white;
+    transition: all 0.23s;
+}
+
+.refresh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn-white {
+    font-size: 18px;
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1xp solid white ;
+    cursor: pointer;
+}
+
+.btn-white:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.2s;
 }
